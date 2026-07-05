@@ -81,7 +81,43 @@ Through this internship I aim to:
 - Develop professional technical documentation
 
 ---
+# AI Usage Reflection: Mistakes, Challenges, and Solutions
 
+Throughout this internship, AI was used as a learning assistant for understanding SRAM concepts, installing EDA tools, debugging Linux errors, and documenting progress. While AI significantly accelerated learning, several situations required manual verification and problem-solving.
+
+| Task | How AI Helped | Where AI Was Incorrect / Limited | How I Solved It |
+|------|---------------|----------------------------------|-----------------|
+| Ubuntu & VirtualBox Setup | Provided installation commands and explained each step. | Installation differed because my VM configuration and Ubuntu version were different from the expected environment. | Verified each step manually, shared terminal output/screenshots, and corrected the process accordingly. |
+| OpenRAM Installation | Guided the installation process and explained dependencies. | Some packages were already installed, missing, or had different names in my Ubuntu version. | Used terminal error messages to identify missing dependencies and installed the correct packages. |
+| SKY130 PDK Setup | Explained the purpose of the SKY130 PDK and directory structure. | AI assumed the PDK already existed in the expected location. | Verified directory paths using Linux commands and corrected the installation path manually. |
+| Linux Commands | Explained commands such as `cd`, `ls`, `mkdir`, `git`, and `vim`. | Some commands failed because they were executed from the wrong directory. | Checked the current directory using `pwd`, navigated to the correct location, and reran the commands. |
+| OpenRAM Execution | Suggested commands to run OpenRAM. | Execution failed because the environment variables and installation were not completely configured. | Verified environment setup, checked error logs, and completed the missing configuration before rerunning. |
+| SRAM Concepts | Simplified difficult concepts such as the 6T SRAM cell, read/write operations, and peripheral circuits. | Some explanations were simplified and did not include implementation-level details. | Referred to OpenRAM documentation and additional technical resources to gain a deeper understanding. |
+| GitHub Documentation | Generated README files, Markdown formatting, and project documentation. | AI occasionally assumed tasks had already been completed. | Updated the documentation to accurately reflect the actual work performed during each week. |
+| Error Debugging | Suggested possible reasons for installation and execution errors. | AI could not identify the exact issue without seeing the terminal output. | Shared screenshots and terminal logs so the problem could be diagnosed based on actual error messages. |
+| Learning Strategy | Broke complex topics into smaller learning modules. | AI could not determine my progress automatically. | Followed a milestone-based learning approach and completed each task before moving to the next one. |
+| Tool Configuration | Explained configuration files and directory structure. | Configuration file locations differed slightly from the reference tutorial. | Compared the project structure with the official repository and adjusted the paths accordingly. |
+
+---
+
+# Key Lessons Learned
+
+- AI accelerated learning but could not replace practical verification.
+- Terminal outputs and error logs were more reliable than assumptions.
+- Official documentation remained the primary source of truth.
+- Sharing screenshots and exact error messages greatly improved AI assistance.
+- Every generated command and explanation should be verified before use.
+- AI is most effective when combined with critical thinking and hands-on experimentation.
+
+---
+
+# Overall Reflection
+
+During this internship, AI served as an effective mentor for learning concepts, understanding SRAM architecture, troubleshooting Linux issues, and creating technical documentation. However, successful completion of the tasks required continuous validation using terminal outputs, official documentation, and practical experimentation. This experience reinforced that AI is a powerful engineering assistant, but accurate VLSI development still depends on careful verification and problem-solving by the engineer.
+
+
+
+---
 # 📌 References
 
 - OpenRAM Documentation
