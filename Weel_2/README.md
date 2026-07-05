@@ -69,17 +69,7 @@ The storage element of a 6T SRAM cell is formed by connecting two CMOS inverters
 
 ---
 
-# 📂 Files Included
 
-```
-Week_2/
-│── README.md
-│── Schematics/
-│── Simulations/
-│── Images/
-```
-
----
 
 # 📈 Learning Outcome
 
