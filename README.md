@@ -38,7 +38,7 @@ The project emphasizes understanding SRAM circuit building blocks through AI-ass
 
 | Tool | Purpose |
 |------|---------|
-| Ubuntu (WSL) | Development Environment |
+| Ubuntu | Development Environment |
 | Xschem | Circuit Design |
 | Ngspice | Circuit Simulation |
 | Magic VLSI | Layout Visualization |
@@ -67,76 +67,7 @@ For every SRAM building block:
 
 ---
 
-# 📂 Repository Structure
 
-```
-VSDinternship_AI_Assisted_4KB_SRAM
-│
-├── Week1
-│
-├── Week2
-│   ├── CMOS_Inverter
-│   ├── 6T_SRAM_Cell
-│   ├── Precharge_Circuit
-│   ├── Sense_Amplifier
-│   ├── Write_Driver
-│   ├── Decoder
-│   ├── Timing_Diagram
-│   ├── AI_Prompts
-│   └── Simulation_Attempts
-│
-├── Week3
-│   ├── OpenRAM_Study
-│   ├── Debugging
-│   └── Final_Observations
-│
-├── Images
-│
-├── Reports
-│
-└── References
-```
-
----
-
-# 📅 Week-wise Progress
-
-## ✅ Week 1
-
-- SRAM Architecture
-- 6T SRAM Bitcell
-- OpenRAM Study
-- SKY130 Technology
-- AI Workflow
-- IEEE Report
-
----
-
-## 🚧 Week 2
-
-- CMOS Inverter
-- 6T SRAM Cell
-- Read & Write Operations
-- Read Disturb
-- Write Margin
-- Butterfly Curve
-- Precharge Circuit
-- Sense Amplifier
-- Write Driver
-- Decoder
-- Timing Sequence
-
----
-
-## 🚧 Week 3
-
-- OpenRAM Configuration
-- Simulation Attempts
-- Debugging Process
-- Final Documentation
-- GitHub Repository
-
----
 
 # 📚 Learning Outcomes
 
